@@ -13,8 +13,8 @@ module Examples.Person
 where
 
 import Data.Maybe (listToMaybe)
-import Data.UUID (UUID(..))
 import Database.Cassandra.CQL
+import Data.UUID (UUID(..))
 import Data.Text (Text)
 import Data.String (fromString)
 import Database.Cassandra.CqlHelper
